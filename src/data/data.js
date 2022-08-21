@@ -125,7 +125,7 @@ export const data = [
       category: 'legs',
       image:
         'https://www.verywellfit.com/thmb/MGZfBBW-o-GaGzw8mSpqqjUIPds=/1835x1376/smart/filters:no_upscale()/hip-thrust-exercise--1199620482-e1e7b0f530a2477487fc0006e45fd7c9.jpg',
-      recommendedSets: '5x15',
+      recommendedLoad: '5x15',
     },
   ];
   

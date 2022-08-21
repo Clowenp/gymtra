@@ -3,9 +3,10 @@ import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag} from 'react-
 import { CgGym } from 'react-icons/cg'
 import { GiGymBag } from 'react-icons/gi'
 import { GrInProgress } from 'react-icons/gr'
-import {FaUserFriends, FaWallet} from 'react-icons/fa'
-import {MdFavorite, MdHelp} from 'react-icons/md'
+import {FaUserFriends} from 'react-icons/fa'
+import {MdHelp} from 'react-icons/md'
 import {BsFillCalendarCheckFill} from 'react-icons/bs'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 const [nav, setNav] = useState(false)
@@ -56,7 +57,7 @@ const [nav, setNav] = useState(false)
                 <li className='text-xl py-4 flex'><CgGym size={25} className='mr-4' /> Exercises </li>
                 <li className='text-xl py-4 flex'><GiGymBag size={25} className='mr-4' /> Today's Workout</li>
                 <li className='text-xl py-4 flex'><GrInProgress size={25} className='mr-4' /> Progress</li>
-                <li className='text-xl py-4 flex'><BsFillCalendarCheckFill size={25} className='mr-4' /> Calendar </li>
+                <li className='text-xl py-4 flex'><BsFillCalendarCheckFill size={25} className='mr-4' /> Calendar</li>
                 <li className='text-xl py-4 flex'><FaUserFriends size={25} className='mr-4' /> Friends</li>
                 <li className='text-xl py-4 flex'><MdHelp size={25} className='mr-4' /> Contact Us </li>
             </ul>
