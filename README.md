@@ -19,4 +19,4 @@ Login system, Progress tracking, Chatting system and more!
 - CSS
 - Javascript
 - React
-- Material-UI
+- Tailwind, Material-UI
